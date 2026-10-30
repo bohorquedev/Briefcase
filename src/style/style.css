@@ -77,11 +77,16 @@ main {
     background-color: transparent;
     margin-top: 40px;
     height: 100vh;
+    display: flex;
+    justify-content: space-between;
+   
+    
 }
 .text-content {
     margin-top: 50px;
     margin-left: 200px;
     color: #E6F1FF;
+    
     
 }
 
@@ -108,3 +113,29 @@ ul li a:hover {
     margin-top: 10px;
 
 }
+.img-perfil-pr {
+    background-color: black;
+    margin-right: 20vh;
+    display: inline-grid;
+    height: min-content;
+    border-radius: 50%;
+    border-style: groove;
+    box-shadow: 
+    0 8px 0 #a5b1c2, 
+    0 15px 20px rgba(0, 0, 0, 0.15);
+  
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+
+}
+.img-perfil-pr img {
+    width: 30vw;
+    height: auto;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    
+}
+
