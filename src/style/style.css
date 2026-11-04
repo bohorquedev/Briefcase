@@ -136,6 +136,66 @@ ul li a:hover {
     display: flex;
     flex-direction: column;
     color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.main-fr {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+
     
 }
 
+#img-about {
+    border-right: 2px solid;
+    place-content: center;
+    object-fit: cover;
+    
+    
+
+
+}
+
+#img-about img {
+    width: 200px;
+}
+
+.container-2 {
+    margin: 20px;
+    display: flex;
+    border-top: 2px solid ;
+    border-bottom: 2px solid;
+    padding: 20px;
+
+    
+
+}
+
+.text-sr {
+    width: 40vw;
+}
+
+.ul-li {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+    
+}
+.ul-li li{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 20px;
+    place-content: center;
+}
+.ul-li li a {
+    padding: 20px;
+    top: 50%;
+    align-self: center;
+   
+    
+}
